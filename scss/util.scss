@@ -1,0 +1,109 @@
+$transparentColor: rgba(255, 255, 255, 0);
+
+.fill-space {
+  flex-grow: 10;
+  flex-basis: fill;
+}
+.min-space {
+  flex-grow: 1;
+}
+.container-p {
+  padding: 10px;
+}
+.container-m {
+  margin: 10px;
+}
+.padding-l-r {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.padding-b {
+  padding-bottom: 10px;
+}
+.padding-a {
+  padding: 10px;
+}
+.margin-t {
+  margin-top: 10px;
+}
+.margin-b {
+  margin-bottom: 10px;
+}
+.margin-r {
+  margin-right: 10px;
+}
+.margin-l {
+  margin-left: 10px;
+}
+.margin-a {
+  margin: 10px;
+}
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+.container-col {
+  display: flex;
+  flex-direction: column;
+}
+.container-row-inline {
+  display: inline-flex;
+  flex-direction: row;
+}
+.center-horizontal {
+  justify-content: center;
+}
+.center-vertical {
+  align-items: center;
+}
+.flex-left {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.border-l-n {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.border-r-n {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.border-thin-black-b {
+  border-bottom: .5px solid black;
+}
+.border-thin-black {
+  border: .5px solid grey;
+}
+.button-wide {
+  width: 100px;
+}
+// .button-darken {
+//   background: darken($primaryColor, 20%);;
+// }
+.highlight-hover:hover {
+  background: rgba(110, 210, 180, 0.08);
+}
+.activeQuestion {
+  background: rgba(110, 210, 180, 0.08);
+  border: .1px solid rgb(110, 210, 180);
+}
+.verticalLine {
+  width: 1px;
+  background: grey;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.stylessButton {
+  border: none;
+  margin: none;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  display: block;
+  text-align: center;
+  border-radius: 0;
+  padding:  0;
+  box-shadow: none;
+}
+.mobile-Hidden {
+}
+// asd/

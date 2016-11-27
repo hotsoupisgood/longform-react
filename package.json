@@ -1,0 +1,33 @@
+{
+  "name": "longform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack && webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "css-loader": "^0.25.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "grunt-exec": "^1.0.1",
+    "mobx": "^2.6.0",
+    "mobx-react": "^3.5.8",
+    "react-dom": "^15.3.2",
+    "redux": "^3.6.0",
+    "webpack": "^1.13.3"
+  }
+}

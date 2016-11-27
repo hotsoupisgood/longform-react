@@ -1,0 +1,23 @@
+nav {
+  .container-row {
+    background: lightblue;
+    // width: 10vw;
+    width: 100vw;
+    ul {
+      padding: 0px !important;
+      margin: 0px !important;
+      li {
+        list-style: none;
+        margin-left: 3vw !important;
+        margin-right: 3vw !important;
+        margin-top: 2vw !important;
+        margin-bottom: 2vw !important;
+        a {
+          text-decoration: none;
+          color: black;
+          padding: 1vw;
+        }
+      }
+    }
+  }
+}
